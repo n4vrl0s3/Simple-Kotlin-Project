@@ -7,32 +7,19 @@
 
     <fragment
         android:id="@+id/nav_home"
-        android:name="com.guan.navigationdrawer.ui.home.HomeFragment"
+        android:name="com.guan.simplekotlinproject.ui.home.HomeFragment"
         android:label="@string/menu_home"
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/nav_gallery"
-        android:name="com.guan.navigationdrawer.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
-
-    <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.guan.navigationdrawer.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
-
-    <fragment
-        android:id="@+id/nav_cart"
-        android:name="com.guan.navigationdrawer.CartFragment"
-        android:label="@string/menu_chart"
-        tools:layout="@layout/fragment_cart" />
+        android:id="@+id/nav_coffe"
+        android:name="com.guan.simplekotlinproject.ui.restaurant.RestaurantFragment"
+        android:label="@string/menu_coffe"
+        tools:layout="@layout/restaurant_main" />
 
     <activity
-        android:id="@+id/nav_subway"
-        android:name="com.guan.navigationdrawer.SubWayActivity"
-        android:label="@string/menu_subway"
-        tools:layout="@layout/activity_sub_way"
-        />
+        android:id="@+id/activity_move_activity_with_object"
+        android:name="com.guan.simplekotlinproject.ui.intent.MoveActivityWithObject"
+        android:label="@string/menu_intent"
+        tools:layout="@layout/activity_move_with_object" />
 </navigation>

@@ -1,20 +1,25 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
+    alias(libs.plugins.kotlin.parcelize)
 }
 
 android {
-    namespace = "com.guan.navigationdrawer"
+    namespace = "com.guan.simplekotlinproject"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.guan.navigationdrawer"
+        applicationId = "com.guan.simplekotlinproject"
         minSdk = 24
         targetSdk = 35
         versionCode = 1
-        versionName = "1.0"
+        versionName = "2.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildFeatures {
+        viewBinding = true
     }
 
     buildTypes {
@@ -54,4 +59,8 @@ dependencies {
     androidTestImplementation(libs.androidx.espresso.core)
     implementation (libs.circleimageview)
     implementation (libs.glide)
+    implementation (libs.retrofit)
+    implementation (libs.retrofit2.converter.gson)
+    implementation(libs.logging.interceptor)
+    implementation(libs.logging.interceptor.v4120)
 }
