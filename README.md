@@ -10,16 +10,40 @@ To showcase the integration of a Navigation Drawer with Fragments to create a fl
 
 <hr><br>
 
-## Steps
+## Features
+
+- Navigation Drawer with multiple menu items
+- Fragment integration for modular UI
+- Smooth and intuitive navigation
+- Responsive design for various screen sizes
+
+<hr><br>
+
+## Technologies Used
+
+- Kotlin
+- Android Studio
+- XML for layout design
+
+<hr><br>
+
+## Steps to Run
 
 1. Clone this Repository
 
-```
+```bash
 git clone https://github.com/guanshiyin28/Navigation-Drawer.git
 ```
 
-2. Open the project
-3. Run the project
+2. Open the project in Android Studio
+3. Build the project to download dependencies
+4. Run the project on an emulator or physical device
+
+<hr><br>
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 <hr><br>
 
