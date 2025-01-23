@@ -112,7 +112,7 @@ class RestaurantFragment : Fragment() {
 
     private fun postReview(review: String) {
         showLoading(false)
-        val client = ApiConfig.getApiService().postReview(restaurantId, "Muhammad Agisna Yudiansyah", review)
+        val client = ApiConfig.getApiService().postReview(restaurantId, "Guan", review)
         client.enqueue(object : retrofit2.Callback<PostReviewResponse> {
             override fun onResponse(
                 call: Call<PostReviewResponse>,

@@ -83,7 +83,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
                 navController.navigate(R.id.nav_coffe)
             }
             R.id.btn_move_activity_with_object -> {
-                val objectmhs = Mahasiswa("Muhammad Agisna Yudiansyah", "TI.23.B.2", 19, "guanshiyinnn@gmail.com", "Java")
+                val objectmhs = Mahasiswa("Guan", "TI.23.B.2", 18, "guanshiyinnn@gmail.com", "Java")
                 val moveIntentWithObject = Intent(this, MoveActivityWithObject::class.java)
                 moveIntentWithObject.putExtra(MoveActivityWithObject.EXTRA_MAHASISWA, objectmhs)
                 startActivity(moveIntentWithObject)

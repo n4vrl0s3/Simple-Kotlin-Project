@@ -45,6 +45,12 @@ class MainActivity : AppCompatActivity() {
 
 <hr><br>
 
+## Releases
+
+You can find the latest releases [here](https://github.com/guanshiyin28/Simple-Kotlin-Project/releases).
+
+<hr><br>
+
 ## Features
 
 - Navigation Drawer with multiple menu items

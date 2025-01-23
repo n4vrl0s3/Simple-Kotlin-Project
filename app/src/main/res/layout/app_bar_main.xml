@@ -30,7 +30,6 @@
         android:layout_gravity="bottom|end"
         android:layout_marginEnd="@dimen/fab_margin"
         android:layout_marginBottom="16dp"
-        app:backgroundTint="#FF0000"
         app:srcCompat="@drawable/ic_github" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
