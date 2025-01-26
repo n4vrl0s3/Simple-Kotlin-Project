@@ -1,4 +1,4 @@
-# Navigation Drawer with API Integration and Simple Intent Mechanism
+# Navigation Drawer
 
 This repository contains the source code for an Android application demonstrating the implementation of a Navigation Drawer integrated with API calls and a simple intent mechanism using the Kotlin language within the Android Studio environment. This project showcases how to create a user-friendly and intuitive navigation experience with dynamic content.
 
@@ -10,7 +10,7 @@ To showcase the integration of a Navigation Drawer with API calls and a simple i
 
 <hr><br>
 
-## Demo
+## Demonstration
 
 Below is a demonstration of the main function of the Navigation Drawer App:
 
@@ -105,12 +105,12 @@ git clone https://github.com/guanshiyin28/Simple-Kotlin-Project.git
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the Apache-2.0 License. See the [LICENSE](LICENSE) file for details.
 
 <hr><br>
 
 <div align="center">
-  <a href="https://www.instagram.com/guanshiyin_/">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=100:FF0000,20:F0F0F0&section=footer&reversal=false&textBg=false&fontAlignY=50&descAlign=48&descAlignY=59"/>
-  </a>
+   <a href="https://www.instagram.com/guanshiyin_/">
+      <img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=100:393E46,20:F7F7F7&section=footer&reversal=false&textBg=false&fontAlignY=50&descAlign=48&descAlignY=59"/>
+   </a>
 </div>
