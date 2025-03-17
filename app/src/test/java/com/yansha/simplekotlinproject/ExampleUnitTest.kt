@@ -1,4 +1,4 @@
-package com.guan.simplekotlinproject
+package com.yansha.simplekotlinproject
 
 import org.junit.Test
 

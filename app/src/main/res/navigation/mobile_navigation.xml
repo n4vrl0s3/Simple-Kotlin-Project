@@ -7,19 +7,19 @@
 
     <fragment
         android:id="@+id/nav_home"
-        android:name="com.guan.simplekotlinproject.ui.home.HomeFragment"
+        android:name="com.yansha.simplekotlinproject.ui.home.HomeFragment"
         android:label="@string/menu_home"
         tools:layout="@layout/fragment_home" />
 
     <fragment
         android:id="@+id/nav_coffe"
-        android:name="com.guan.simplekotlinproject.ui.restaurant.RestaurantFragment"
+        android:name="com.yansha.simplekotlinproject.ui.restaurant.RestaurantFragment"
         android:label="@string/menu_coffe"
         tools:layout="@layout/restaurant_main" />
 
     <activity
         android:id="@+id/activity_move_activity_with_object"
-        android:name="com.guan.simplekotlinproject.ui.intent.MoveActivityWithObject"
+        android:name="com.yansha.simplekotlinproject.ui.intent.MoveActivityWithObject"
         android:label="@string/menu_intent"
         tools:layout="@layout/activity_move_with_object" />
 </navigation>

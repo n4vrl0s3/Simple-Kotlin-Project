@@ -22,7 +22,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingTop="@dimen/nav_header_vertical_spacing"
-        android:text="@string/guan"
+        android:text="@string/yansha"
         android:fontFamily="@font/montserrat_bold"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
 
@@ -30,6 +30,6 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/guan_gmail"
+        android:text="@string/yansha_gmail"
         android:fontFamily="@font/montserrat_semibold"/>
 </LinearLayout>

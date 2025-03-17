@@ -1,4 +1,4 @@
-package com.guan.simplekotlinproject.ui.intent
+package com.yansha.simplekotlinproject.ui.intent
 
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize

@@ -5,15 +5,15 @@ plugins {
 }
 
 android {
-    namespace = "com.guan.simplekotlinproject"
+    namespace = "com.yansha.simplekotlinproject"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.guan.simplekotlinproject"
+        applicationId = "com.yansha.simplekotlinproject"
         minSdk = 24
         targetSdk = 35
-        versionCode = 1
-        versionName = "1.0.0"
+        versionCode = 3
+        versionName = "1.1.1"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }

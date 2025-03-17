@@ -1,12 +1,10 @@
-package com.guan.simplekotlinproject.ui.intent
+package com.yansha.simplekotlinproject.ui.intent
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.ui.AppBarConfiguration
-import androidx.navigation.ui.setupActionBarWithNavController
-import androidx.navigation.ui.setupWithNavController
-import com.guan.simplekotlinproject.R
-import com.guan.simplekotlinproject.databinding.ActivityMoveWithObjectBinding
+import com.yansha.simplekotlinproject.R
+import com.yansha.simplekotlinproject.databinding.ActivityMoveWithObjectBinding
 
 class MoveActivityWithObject : AppCompatActivity() {
 

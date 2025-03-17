@@ -1,4 +1,4 @@
-package com.guan.simplekotlinproject
+package com.yansha.simplekotlinproject
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

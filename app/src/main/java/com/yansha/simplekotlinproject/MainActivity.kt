@@ -1,4 +1,4 @@
-package com.guan.simplekotlinproject
+package com.yansha.simplekotlinproject
 
 import android.content.Intent
 import android.net.Uri
@@ -15,9 +15,9 @@ import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import com.bumptech.glide.Glide
 import com.google.android.material.navigation.NavigationView
-import com.guan.simplekotlinproject.databinding.ActivityMainBinding
-import com.guan.simplekotlinproject.ui.intent.Mahasiswa
-import com.guan.simplekotlinproject.ui.intent.MoveActivityWithObject
+import com.yansha.simplekotlinproject.databinding.ActivityMainBinding
+import com.yansha.simplekotlinproject.ui.intent.Mahasiswa
+import com.yansha.simplekotlinproject.ui.intent.MoveActivityWithObject
 import de.hdodenhof.circleimageview.CircleImageView
 
 class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
@@ -39,7 +39,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
 
         mainBinding.appBarMain.fab.setOnClickListener { view ->
             // Menggunakan Intent untuk membuka browser dengan URL yang diinginkan
-            val url = "https://github.com/guanshiyin28/"
+            val url = "https://github.com/n4vrl0s3/"
             val intent = Intent(Intent.ACTION_VIEW, Uri.parse(url))
             startActivity(intent)
         }
@@ -89,20 +89,20 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
                 startActivity(moveIntentWithObject)
             }
             R.id.nav_github -> {
-                val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/guanshiyin28"))
+                val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/n4vrl0s3"))
                 startActivity(intent)
             }
             R.id.nav_instagram -> {
-                val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.instagram.com/guanshiyin_"))
+                val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.instagram.com/n4vrl0s3"))
                 startActivity(intent)
             }
             R.id.nav_x -> {
-                val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://x.com/guanss_"))
+                val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://x.com/n4vrl0s3"))
                 startActivity(intent)
             }
             R.id.nav_email -> {
                 val intent = Intent(Intent.ACTION_SENDTO).apply {
-                    data = Uri.parse("mailto:guanshiyinnn@gmail.com")
+                    data = Uri.parse("mailto:n4vrl0s3@gmail.com")
                 }
                 startActivity(intent)
             }

@@ -1,12 +1,12 @@
-package com.guan.simplekotlinproject.ui
+package com.yansha.simplekotlinproject.ui
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
-import com.guan.restaurantreview.data.response.CustomerReviewsItem
-import com.guan.simplekotlinproject.databinding.ItemReviewBinding
+import com.yansha.restaurantreview.data.response.CustomerReviewsItem
+import com.yansha.simplekotlinproject.databinding.ItemReviewBinding
 
 class ReviewAdapter : ListAdapter <CustomerReviewsItem, ReviewAdapter.MyViewHolder> (DIFF_CALLBACK) {
 

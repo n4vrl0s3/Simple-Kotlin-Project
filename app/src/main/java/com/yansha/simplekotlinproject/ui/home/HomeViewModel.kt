@@ -1,4 +1,4 @@
-package com.guan.simplekotlinproject.ui.home
+package com.yansha.simplekotlinproject.ui.home
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
